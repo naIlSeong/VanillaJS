@@ -1,5 +1,9 @@
 # Momentum Clone Coding with VanillaJS
 
+## nomadcoder.co
+
+## VanillaJS Challenge Final Project
+
 - [ ] Clock
 - [x] Username Persistance
 - [x] To Do List
@@ -7,5 +11,3 @@
 - [ ] Weather with Geolocation
 
 - [ ] Styling
-
-
