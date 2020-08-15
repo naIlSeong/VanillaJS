@@ -2,16 +2,27 @@
   "name": "vanillajs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "start": " parcel index.html",
-    "build": " parcel build index.html"
+    "dev": "gulp dev"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "browserslist": {
+    "browsers": [
+      "last 2 versions"
+    ]
+  },
+  "dependencies": {
     "@babel/core": "^7.4.5",
-    "parcel-bundler": "^1.6.1"
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.10.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   },
+  "devDependencies": {},
   "author": "IlSeong",
   "keywords": []
 }
