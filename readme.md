@@ -1,7 +1,9 @@
-[ ] Clock.
-[ ] Username Persistance.
-[✔] To Do List.
-[ ] Random Background Image.
-[ ] Weather with Geolocation.
+# Momentum Clone Coding with VanillaJS
 
-[ ] Styling
+- [ ] Clock
+- [ ] Username Persistance
+- [x] To Do List
+- [ ] Random Background Image
+- [ ] Weather with Geolocation
+
+- [ ] Styling
