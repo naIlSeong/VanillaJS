@@ -119,4 +119,3 @@ package-lock.json
 
 # dist/
 # !bower_components/**/dist/
-readme.md
