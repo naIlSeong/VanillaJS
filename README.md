@@ -1,6 +1,6 @@
 # Momentum Clone Coding with VanillaJS
 
-## nomadcoder.co
+## http://nomadcoders.co/
 
 ## VanillaJS Challenge Final Project
 
