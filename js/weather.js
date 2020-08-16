@@ -23,13 +23,14 @@ function getWeather(lat, lon) {
       const bottom = document.createElement("div");
       const icon = document.createElement("img");
 
+      top.className = "top";
       top.innerText = `${temperature}℃`;
       bottom.innerText = `${cityName}`;
       icon.src = `http://openweathermap.org/img/wn/${statusIcon}@2x.png`;
 
-      WEATHER.appendChild(top);
-      WEATHER.appendChild(bottom);
       WEATHER.appendChild(icon);
+      WEATHER.appendChild(bottom);
+      WEATHER.appendChild(top);
     });
 }
 

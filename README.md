@@ -10,4 +10,4 @@
 - [x] Random Background Image
 - [x] Weather with Geolocation
 
-- [ ] Styling
+- [x] Styling

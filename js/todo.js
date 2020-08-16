@@ -85,7 +85,7 @@ function pendingToDo(text) {
   const span = document.createElement("span");
 
   finishedBtn.innerText = "✅";
-  deleteBtn.innerText = "🗑";
+  deleteBtn.innerText = "❌";
   span.innerText = text;
 
   li.appendChild(finishedBtn);
@@ -114,8 +114,8 @@ function finishedToDo(text) {
   const deleteBtn = document.createElement("button");
   const span = document.createElement("span");
 
-  switchBtn.innerText = "⏮";
-  deleteBtn.innerText = "🗑";
+  switchBtn.innerText = "🔙";
+  deleteBtn.innerText = "❌";
   span.innerText = text;
 
   li.appendChild(switchBtn);

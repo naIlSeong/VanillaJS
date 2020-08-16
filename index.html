@@ -3,11 +3,15 @@
   <head>
     <title>What should I do?</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="dist/css/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Red+Rose&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <img src="https://source.unsplash.com/random" />
+    <img class="bgImage" src="https://source.unsplash.com/random" />
 
     <form class="js-greetingsForm">
       <input type="text" placeholder="What is your name?" />
@@ -15,21 +19,21 @@
     <script src="/js/greetings.js"></script>
 
     <div class="js-clock">
-      <h2></h2>
       <h1></h1>
+      <h3></h3>
     </div>
     <script src="/js/clock.js"></script>
 
     <div class="js-todo">
       <form class="toDoForm">
-        <h1>Tasks</h1>
-        <input type="text" placeholder="Add task" required="true" />
+        <!-- <h1>Tasks</h1> -->
+        <input type="text" placeholder="Input Task" required="true" />
       </form>
       <ul class="pendingForm">
         <h2>Things to do</h2>
       </ul>
       <ul class="finishedForm">
-        <h2>You did these things</h2>
+        <h2>Done</h2>
       </ul>
     </div>
     <script src="/js/todo.js"></script>

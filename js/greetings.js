@@ -36,8 +36,8 @@ function displayUser(text) {
   const greeting = document.createElement("span");
   const name = document.createElement("span");
 
-  greeting.innerText = "Have a good day ";
-  name.innerText = text;
+  greeting.innerText = "Hello! ";
+  name.innerText = `${text} :)`;
 
   div.appendChild(greeting);
   div.appendChild(name);

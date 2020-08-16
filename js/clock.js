@@ -1,9 +1,10 @@
 const container = document.querySelector(".js-clock");
 const clock = container.querySelector("h1");
-const TODAY = container.querySelector("h2");
+const TODAY = container.querySelector("h3");
 
 function getTime() {
   // Clock
+
   const date = new Date();
   const minutes = date.getMinutes();
   const hours = date.getHours();
@@ -19,7 +20,9 @@ function getTime() {
   } else {
     clock.style.color = "#ecf0f1";
   }
+
   // Calendar
+
   const month = new Array();
   month[0] = "January";
   month[1] = "February";
@@ -47,6 +50,8 @@ function getTime() {
     TODAY.innerText = `${thisMonth} ${today}th`;
   }
 }
+
+// Blink when seconds > 50
 
 function countDown(seconds) {
   if (seconds % 2 != 0) {
