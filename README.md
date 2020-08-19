@@ -4,7 +4,7 @@
 
 ## VanillaJS Challenge Final Project
 
-## Check it OUT!! https://na-il-seong.github.io/VanillaJS/
+## Check it OUT!! https://naIlSeong.github.io/VanillaJS/
 
 - [x] Clock
 - [x] Username Persistance
